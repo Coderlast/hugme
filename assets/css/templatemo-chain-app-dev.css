@@ -33,6 +33,12 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+.bg-app-image{
+  background-image: url(../images/image\ 18.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
 /* clear fix */
 .grid:after {
   content: '';
@@ -253,12 +259,11 @@ body {
 .border-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #860280 !important;
-  border: 1px solid #860280;
+  color: #ffffff !important;
   text-transform: capitalize;
   font-size: 15px;
   display: inline-block;
-  background-color: #fff;
+  background-color: rgb(168, 0, 246);
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -266,9 +271,29 @@ body {
 }
 
 .border-button a:hover {
-  background-color: #860280;
+  background-color: #1d0653;
   color: #fff !important;
 }
+
+.border-button-2 a {
+  display: inline-block !important;
+  padding: 10px 20px !important;
+  color: #ffffff !important;
+  text-transform: capitalize;
+  font-size: 15px;
+  display: inline-block;
+  border-color: #FFF solid 1px;
+  border-radius: 23px;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  transition: all .5s;
+}
+
+.border-button-2 a:hover {
+  background-color: #1d0653;
+  color: #fff !important;
+}
+
 
 
 /* 
