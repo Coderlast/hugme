@@ -33,7 +33,7 @@
     <div class="collapse navbar-collapse  w-auto  max-height-vh-100 h-100" id="sidenav-collapse-main">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link  active" href="../pages/dashboard.html">
+          <a class="nav-link " href="../pages/dashboard.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>shop </title>
@@ -91,8 +91,8 @@
               </div>
               <span class="nav-link-text ms-1">Farzandlikka Muhtoj Bolalar</span>
             </a>
-          </li>
-          <li class="nav-item">
+        </li>
+        <li class="nav-item">
             <a class="nav-link  " href="../pages/homiylik.html">
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                 <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -111,9 +111,9 @@
               </div>
               <span class="nav-link-text ms-1">Homiylikka Muhtoj Bolalar</span>
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link  " href="../pages/add-user.html">
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link active " href="../pages/add-user.html">
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                 <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                   <title>office</title>
@@ -132,7 +132,7 @@
               <span class="nav-link-text ms-1">Ma'lumot kiritish</span>
             </a>
         </li>
-        </ul>
+      </ul>
     </div>
   </aside>
   <main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
@@ -188,279 +188,79 @@
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-12">
-          <div class="card mb-4">
-            <div class="card-header pb-0">
-              <h6>Vasiylikka olingan bolalar</h6>
-            </div>
-            <div class="card-body px-0 pt-0 pb-2">
-              <div class="table-responsive p-0">
-                <table class="table align-items-center mb-0">
-                  <thead>
-                    <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">FISH</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Jinsi / Yoshi</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Manzil</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Yashash holati</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Tug'ilgan sana</th>
-                      <th class="text-secondary opacity-7"></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          <div>
-                            <img src="../assets/img/team-1.jpg" class="avatar avatar-sm me-3" alt="user1">
-                          </div>
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Akbarova Maftuna</h6>
-                            <p class="text-xs text-secondary mb-0">+998 91 111 22 33</p>
-                          </div>
+            <div class="card mb-4">
+              <div class="card-header pb-0">
+                <h6>Ma'lumotlarni kiritish</h6>
+              </div>
+              <div class="card-body px-8 pt-4 pb-2">
+                <form role="form text-left">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <span>Ism Familyani Sharifini kiriting</span>
+                                <input type="email" class="form-control" placeholder="FISH" aria-label="Email" aria-describedby="email-addon">
+                            </div>
                         </div>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Ayollar</p>
-                        <p class="text-xs text-secondary mb-0">14 yosh</p>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Fergana</p>
-                        <p class="text-xs text-secondary mb-0">Marg'ilon sh. Kaptar 14uy</p>
-                      </td>
-                      <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-success">Yaxshi</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">23/04/18</span>
-                      </td>
-                      <td class="align-middle">
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                          Edit
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                        <td>
-                          <div class="d-flex px-2 py-1">
-                            <div>
-                              <img src="../assets/img/team-3.jpg" class="avatar avatar-sm me-3" alt="user1">
+                        <div class="col-6">
+                            <span>Telefon raqam</span>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="phoneNumber" aria-label="Password" aria-describedby="password-addon">
                             </div>
-                            <div class="d-flex flex-column justify-content-center">
-                              <h6 class="mb-0 text-sm">Musajonov Mamarayim</h6>
-                              <p class="text-xs text-secondary mb-0">+998 91 111 22 33</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <span>Ism Familyani Sharifini kiriting</span>
+                                <input type="email" class="form-control" placeholder="FISH" aria-label="Email" aria-describedby="email-addon">
                             </div>
-                          </div>
-                        </td>
-                        <td>
-                          <p class="text-xs font-weight-bold mb-0">Erkak</p>
-                          <p class="text-xs text-secondary mb-0">18 yosh</p>
-                        </td>
-                        <td>
-                            <p class="text-xs font-weight-bold mb-0">Fergana</p>
-                            <p class="text-xs text-secondary mb-0">Marg'ilon sh. Akbarcha 25uy</p>
-                          </td>
-                        <td class="align-middle text-center text-sm">
-                          <span class="badge badge-sm bg-gradient-dark">Ortacha</span>
-                        </td>
-                        
-                        <td class="align-middle text-center">
-                          <span class="text-secondary text-xs font-weight-bold">23/04/18</span>
-                        </td>
-                        <td class="align-middle">
-                          <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                            Edit
-                          </a>
-                        </td>
-                    </tr>
-                  </tbody>
-                </table>
+                        </div>
+                        <div class="col-6">
+                            <span>Telefon raqam</span>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="phoneNumber" aria-label="Password" aria-describedby="password-addon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <span>Ism Familyani Sharifini kiriting</span>
+                                <input type="email" class="form-control" placeholder="FISH" aria-label="Email" aria-describedby="email-addon">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <span>Telefon raqam</span>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="phoneNumber" aria-label="Password" aria-describedby="password-addon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <span>Ism Familyani Sharifini kiriting</span>
+                                <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-check form-check-info text-left">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        eslab qolaymi?
+                      </label>
+                    </div>
+                    <div class="text-center">
+                      <a href="dashboard.html">
+                        <button type="button" class="btn bg-gradient-primary w-100 my-4 mb-2">Tizimga Kirish</button>
+                      </a>
+                      
+                    </div>
+                  </form>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="card mb-4">
-            <div class="card-header pb-0">
-              <h6>Farzandlikka Muhtoj Bolalar</h6>
-            </div>
-            <div class="card-body px-0 pt-0 pb-2">
-              <div class="table-responsive p-0">
-                <table class="table align-items-center mb-0">
-                  <thead>
-                    <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">FISH</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Jinsi / Yoshi</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Manzil</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Yashash holati</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Tug'ilgan sana</th>
-                      <th class="text-secondary opacity-7"></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          <div>
-                            <img src="../assets/img/team-1.jpg" class="avatar avatar-sm me-3" alt="user1">
-                          </div>
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Akbarova Maftuna</h6>
-                            <p class="text-xs text-secondary mb-0">+998 91 111 22 33</p>
-                          </div>
-                        </div>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Ayollar</p>
-                        <p class="text-xs text-secondary mb-0">14 yosh</p>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Fergana</p>
-                        <p class="text-xs text-secondary mb-0">Marg'ilon sh. Kaptar 14uy</p>
-                      </td>
-                      <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-success">Yaxshi</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">23/04/18</span>
-                      </td>
-                      <td class="align-middle">
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                          Edit
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                        <td>
-                          <div class="d-flex px-2 py-1">
-                            <div>
-                              <img src="../assets/img/team-3.jpg" class="avatar avatar-sm me-3" alt="user1">
-                            </div>
-                            <div class="d-flex flex-column justify-content-center">
-                              <h6 class="mb-0 text-sm">Musajonov Mamarayim</h6>
-                              <p class="text-xs text-secondary mb-0">+998 91 111 22 33</p>
-                            </div>
-                          </div>
-                        </td>
-                        <td>
-                          <p class="text-xs font-weight-bold mb-0">Erkak</p>
-                          <p class="text-xs text-secondary mb-0">18 yosh</p>
-                        </td>
-                        <td>
-                            <p class="text-xs font-weight-bold mb-0">Fergana</p>
-                            <p class="text-xs text-secondary mb-0">Marg'ilon sh. Akbarcha 25uy</p>
-                          </td>
-                        <td class="align-middle text-center text-sm">
-                          <span class="badge badge-sm bg-gradient-dark">Ortacha</span>
-                        </td>
-                        
-                        <td class="align-middle text-center">
-                          <span class="text-secondary text-xs font-weight-bold">23/04/18</span>
-                        </td>
-                        <td class="align-middle">
-                          <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                            Edit
-                          </a>
-                        </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="card mb-4">
-            <div class="card-header pb-0">
-              <h6>Homiylik Muhtoj Bolalar</h6>
-            </div>
-            <div class="card-body px-0 pt-0 pb-2">
-              <div class="table-responsive p-0">
-                <table class="table align-items-center mb-0">
-                  <thead>
-                    <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">FISH</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Jinsi / Yoshi</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Manzil</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Yashash holati</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Tug'ilgan sana</th>
-                      <th class="text-secondary opacity-7"></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          <div>
-                            <img src="../assets/img/team-1.jpg" class="avatar avatar-sm me-3" alt="user1">
-                          </div>
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Akbarova Maftuna</h6>
-                            <p class="text-xs text-secondary mb-0">+998 91 111 22 33</p>
-                          </div>
-                        </div>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Ayollar</p>
-                        <p class="text-xs text-secondary mb-0">14 yosh</p>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Fergana</p>
-                        <p class="text-xs text-secondary mb-0">Marg'ilon sh. Kaptar 14uy</p>
-                      </td>
-                      <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-success">Yaxshi</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">23/04/18</span>
-                      </td>
-                      <td class="align-middle">
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                          Edit
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                        <td>
-                          <div class="d-flex px-2 py-1">
-                            <div>
-                              <img src="../assets/img/team-3.jpg" class="avatar avatar-sm me-3" alt="user1">
-                            </div>
-                            <div class="d-flex flex-column justify-content-center">
-                              <h6 class="mb-0 text-sm">Musajonov Mamarayim</h6>
-                              <p class="text-xs text-secondary mb-0">+998 91 111 22 33</p>
-                            </div>
-                          </div>
-                        </td>
-                        <td>
-                          <p class="text-xs font-weight-bold mb-0">Erkak</p>
-                          <p class="text-xs text-secondary mb-0">18 yosh</p>
-                        </td>
-                        <td>
-                            <p class="text-xs font-weight-bold mb-0">Fergana</p>
-                            <p class="text-xs text-secondary mb-0">Marg'ilon sh. Akbarcha 25uy</p>
-                          </td>
-                        <td class="align-middle text-center text-sm">
-                          <span class="badge badge-sm bg-gradient-dark">Ortacha</span>
-                        </td>
-                        
-                        <td class="align-middle text-center">
-                          <span class="text-secondary text-xs font-weight-bold">23/04/18</span>
-                        </td>
-                        <td class="align-middle">
-                          <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                            Edit
-                          </a>
-                        </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
      
     </div>
